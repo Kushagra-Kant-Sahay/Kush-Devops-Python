@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
- //              echo "buildapp"
-               version "python 3.14"
+ //              echo "buildapp"        
             }
         }
  //   stage('test') {
@@ -12,5 +11,14 @@ pipeline {
  //            echo "testapp"
  //         }
  //     }
+    }
+
+    stage {
+        stage('publish')
+        {
+            steps{
+                echo "publish"
+            }
+        }
     }
 }
