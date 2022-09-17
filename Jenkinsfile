@@ -17,7 +17,7 @@ pipeline {
         stage('publish')
         {
             steps{
-                echo "publish"
+                echo "publish code"
             }
         }
     }
