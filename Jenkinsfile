@@ -11,6 +11,11 @@ pipeline {
                echo "testapp"
             }
             }
+        stage('deploy') {
+            steps{
+                echo "deployapp"
+            }
+        }
 
             }
         }
