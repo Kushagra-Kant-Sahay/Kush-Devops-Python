@@ -17,5 +17,11 @@ pipeline {
             }
         }
 
+        Post{
+            build {
+                    emailext body: 'New Python code deployed ', subject: 'Hello Build run Successfully', to: 'kksahay04@gmail.com'
+            }
+        }
+
             }
         }
