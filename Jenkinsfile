@@ -20,7 +20,7 @@ pipeline {
 
         post {
             success {
-                    emailext body: 'New Python code deployed ', subject: 'Hello Build run Successfully', to: 'diksha1999tripathi@gmail.com'
+                    emailext body: 'New Python code deployed ', subject: 'Hello Build run Successfully', to: 'kksahay04@gmail.com'
                     }
              }
         }
