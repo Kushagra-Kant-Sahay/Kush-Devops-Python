@@ -16,8 +16,7 @@ pipeline {
                 echo "deployapp"
             }
         }
-
-            }
+    }
             
             post {
                 always
