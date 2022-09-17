@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
  //              echo "buildapp"
-               version "python --version"
+               version "python 3.14"
             }
         }
  //   stage('test') {
