@@ -7,8 +7,9 @@ pipeline {
             }
         }
     //   stage('test') {
-            steps {
-               echo "testapp"
-            } 
+    //        steps {
+    //           echo "testapp"
+    //        }
+    //        } 
             }
         }
