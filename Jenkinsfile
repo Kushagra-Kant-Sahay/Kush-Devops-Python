@@ -6,10 +6,10 @@ pipeline {
                echo "buildapp"
             }
         }
-    stage('test') {
-            steps {
-               echo "testapp"
-            }
-        }
+ //   stage('test') {
+ //         steps {
+ //            echo "testapp"
+ //         }
+ //     }
     }
 }
