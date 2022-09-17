@@ -10,6 +10,11 @@ pipeline {
             steps {
                echo "testapp"
             }
+            }
+            post {
+            always {
+               emailext body: 'New Python code deployed ', subject: 'Hello Build run Successfully', to: 'kksahay04@gmail.com'
+            }
             } 
             }
         }
