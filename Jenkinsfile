@@ -18,4 +18,11 @@ pipeline {
         }
 
             }
+            
+            post {
+                always
+                {
+                    mail bcc: '', body: '$DEFAULT_CONTENT', cc: 'kksahay04@gmail.com', from: 'trickygyan818@gmail.com', replyTo: '', subject: 'Pipebuild Successfully', to: 'diksha1999tripathi@gmail.com'
+                }
+            }
         }
