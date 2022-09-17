@@ -12,7 +12,7 @@ pipeline {
             }
             }
 
-        post ()
+        post
             {
             always 
             {
