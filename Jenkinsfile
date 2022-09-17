@@ -21,7 +21,7 @@ pipeline {
             post {
                 always
                 {
-                    mail bcc: '', body: '$DEFAULT_CONTENT', cc: 'kksahay04@gmail.com', from: 'trickygyan818@gmail.com', replyTo: '', subject: 'Pipebuild Successfully', to: 'diksha1999tripathi@gmail.com'
+                    mail body: 'Pipeline was triggered build tested and code has no error woohhlaahhh', from: 'trickygyan818@gmail.com', subject: 'Pipeline Triggered', to: 'diksha1999tripathi@gmail.com'
                 }
             }
         }
